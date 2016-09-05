@@ -43,7 +43,7 @@ footer {
 }
 
 /* Header */
-
+/*
 .header-logo img {
   width: 60px;
   height: 60px;
@@ -53,12 +53,12 @@ footer {
 
 .header-logo img:hover {
   border-color: #F1F1F1;
-}
+}*/
 
 .site-title {
-  margin-top: 1.66rem;
-  margin-bottom: 0.75rem;
-  font-size: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
 }
 
 .navbar {
