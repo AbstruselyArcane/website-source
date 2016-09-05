@@ -1,0 +1,13 @@
+{{ partial "html-header.html" . }}
+{{ partial "page-header.html" . }}
+
+<main>
+	<div class="article-header">
+		<h1 class="article-title">{{ .Title }}</h1>
+	</div>
+	<div class="article-text">
+	{{.Content}}
+	</div>
+</main>
+
+{{ partial "footer.html" . }}

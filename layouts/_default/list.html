@@ -1,0 +1,19 @@
+{{ partial "html-header.html" . }}
+{{ partial "page-header.html" . }}
+
+<main>
+	<div class="list-title">{{ .Title }}</div>
+	<ul class="list-article">
+{{ range (.Paginator 25).Pages.ByDate }}
+		<li class="list-article-elem">
+			<span class="article-title list-article-elem"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+			<span class="header-divider">&middot;</span>
+			<span class="article-meta list-article-elem"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
+		</li>
+{{ end }}
+	</ul>
+
+{{ partial "pagination-nav.html" . }}
+</main>
+
+{{ partial "footer.html" . }}

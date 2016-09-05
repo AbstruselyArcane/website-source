@@ -1,0 +1,21 @@
+{{ partial "html-header.html" . }}
+{{ partial "page-header.html" . }}
+
+<main>
+{{ range first 10 (where .Paginator.Pages ".Params.notonhomepage" "!=" "true") }}
+	<div class="article">
+		<div class="article-header">
+			<h1 class="article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+			<span class="article-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time></span>
+		</div>
+		<div class="article-text">
+		{{ .Content }}
+		</div>
+	</div>
+{{ end }}
+
+{{ partial "pagination-nav.html" . }}
+	</div>
+</main>
+
+{{ partial "footer.html" . }}

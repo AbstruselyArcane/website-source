@@ -1,0 +1,12 @@
+	<div class="pagination-navbar">
+{{ if .Paginator.HasPrev }}
+	    <a class="pagination-nav-prev" href="{{ .Paginator.Prev.URL }}">
+	        << Previous Page
+	    </a>
+{{ end }}
+{{ if .Paginator.HasNext }}
+	    <a class="pagination-nav-next" href="{{ .Paginator.Next.URL }}">
+	        Next Page >>
+	    </a>
+{{ end }}
+	</div>

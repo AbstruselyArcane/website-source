@@ -1,0 +1,17 @@
+baseurl = "http://localhost:1313/"
+languageCode = "en-gb"
+title = "Isaac Khor's Blog"
+
+#theme = "aa-minimalist"
+buildDrafts = false
+
+googleAnalytics = "UA-83435334-1"
+
+copyright = "2016 Isaac Khor."
+
+[permalinks]
+ 	blog = "/blog/:year/:title/"
+
+[Params]
+	DateForm = "2 Jan 2006"
+	github = "https://github.com/AbstruselyArcane"
