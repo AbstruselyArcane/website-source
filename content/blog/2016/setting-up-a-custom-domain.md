@@ -13,7 +13,7 @@ Buying a domain was pretty easy. I am using [Hover](https://hover.com/) as my re
 
 After creating A records pointing to Github's servers, and creating a CNAME file in Github, the DNS settings propagated to Google's DNS servers within a minute. Visiting [isaackhor.com](https://isaackhor.com/) navigated to the right location. However, I noticed something :
 
-![Where's the SSL?](img/setting-up-a-custom-domain-nossl.png)
+![Where's the SSL?](/img/setting-up-a-custom-domain-nossl.png)
 
 No HTTPS? Ok, I should be able to set a certificate somewhere...
 
@@ -58,11 +58,11 @@ isaackhor.com.		299	IN	A	104.27.146.99
 
 Test isaackhor.com in the browser, everything works correctly. Final step: force all traffic to HTTPS:
 
-![CloudFlare Page Rules](img/setting-up-a-custom-domain-cloudflare-pagerule.png)
+![CloudFlare Page Rules](/img/setting-up-a-custom-domain-cloudflare-pagerule.png)
 
 Test in Chrome, yep, HTTPS works:
 
-![HTTPS is working](img/setting-up-a-custom-domain-ssl.png)
+![HTTPS is working](/img/setting-up-a-custom-domain-ssl.png)
 
 Now, to get back to that calculus homework ... wait ... I can have custom email, don't I? Why don't I set it up right now?
 

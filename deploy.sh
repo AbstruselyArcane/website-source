@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "Deploying updates to GitHub..."
 
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
@@ -22,3 +22,9 @@ git push origin master
 
 # Come Back
 cd ..
+
+# Add and commit changes (in source repo)
+git add -A
+git commit -m "$msg" # msg already set from the public repo
+
+git push
