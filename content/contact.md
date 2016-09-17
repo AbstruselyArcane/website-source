@@ -5,4 +5,14 @@ layout = "special-about"
 title = "Contact"
 +++
 
-There is only one way to contact me: email, if you have my email address (Sorry, but I will publish my email address when I figure out not let my email addresses fall prey to spammers). I do not guarantee a reply.
+If you don't know me personally or know somebody that does, the easiest way of contacting me is via email (It's an image because I'm pretty sure spambot crawlers don't do OCR): 
+
+![Email address](/img/contact.png)
+
+This is the response time that I strive to achieve given the method of communication:
+
+1. Phone number: one hour
+2. People already in my contacts: one day
+3. Social media & the email shown above: 3 days
+
+Add a day if the reply takes a long time to compose.
