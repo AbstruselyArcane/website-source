@@ -1,13 +1,13 @@
 <footer>
   <div class="hr"></div>
-  <div class="footer-links">
+  <nav class="footer-links">
    {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank">Twitter</a><span class="header-divider">&middot;</span>{{ end }}
    {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank">Facebook</a><span class="header-divider">&middot;</span>{{ end }}
 	 {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank">GitHub</a><span class="header-divider">&middot;</span>{{ end }}
-	<a href="/blog/index.xml" target="_self">RSS</a>
-  <span class="header-divider">&middot;</span>
-	<a href="/license/" target="_self">License</a>
-  </div>
+  	<a href="/blog/index.xml" target="_self">RSS</a>
+    <span class="header-divider">&middot;</span>
+  	<a href="/license/" target="_self">License</a>
+  </nav>
   <div class="copyright"> Copyright &copy; {{ .Site.Copyright | safeHTML }}
 </footer>
 </div>

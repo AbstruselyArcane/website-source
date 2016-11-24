@@ -7,9 +7,9 @@
 			<h1 class="article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 			<span class="article-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time></span>
 		</div>
-		<div class="article-text">
+		<article class="article-text">
 		{{.Content}}
-		</div>
+		</article>
 	</div>
 </main>
 
