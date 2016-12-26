@@ -35,6 +35,12 @@ a {
   text-decoration: none;
 }
 
+/* Tables */
+
+td, th {
+  padding: 3px 10px;
+}
+
 /* Global */
 
 .container {
