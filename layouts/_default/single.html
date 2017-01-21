@@ -2,15 +2,15 @@
 {{ partial "page-header.html" . }}
 
 <main>
-	<div class="article">
+	<article class="article">
 		<div class="article-header">
 			<h1 class="article-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 			<span class="article-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }}</time></span>
 		</div>
-		<article class="article-text">
+		<div class="article-text">
 		{{.Content}}
-		</article>
-	</div>
+		</div>
+	</article>
 </main>
 
 {{ partial "footer.html" . }}
