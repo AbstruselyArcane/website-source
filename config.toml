@@ -1,6 +1,6 @@
 baseurl = "https://isaackhor.com/"
 languageCode = "en-gb"
-title = "Isaac Khor's Blog"
+title = "Essence of Insanity"
 
 buildDrafts = false
 
@@ -14,3 +14,4 @@ copyright = "2016 Isaac Khor."
 [Params]
 	DateForm = "2 Jan 2006"
 	github = "https://github.com/IsaacKhor"
+	tagline = "Ramblings of a lunatic"

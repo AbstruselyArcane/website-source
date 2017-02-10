@@ -5,7 +5,9 @@ layout = "special-about"
 title = "About"
 +++
 
-Nothing interesting here other than random essays by Isaac Khor.
+Isaac Khor is a programming, music, philosophy, and mathematics enthusiast. This blog is a merely a collection of his ramblings.
+
+// TODO: paste CV here (just kidding)
 
 ## FAQ
 
@@ -15,8 +17,7 @@ Nothing interesting here other than random essays by Isaac Khor.
  2. Write stuff
  3. Delete everything and start over again
  4. Repeat from #2 until it's half-decent to read
- 5. ```hugo```
- 6. ```git add -all; git commit -m "New post: post name"; git push```
+ 5. ```./deploy.sh "New post: post name"```
 
 ### 2. What programming languages do you use?
  - Clojure
